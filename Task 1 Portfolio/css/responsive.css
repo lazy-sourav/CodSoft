@@ -1,0 +1,173 @@
+/* For tablet responsive */
+@media only screen and (max-width: 768px) {
+  .uni-padding {
+    padding: 0px 55px;
+  }
+
+  /* Navbar section*/
+  #nav_bar ul {
+    margin-left: 10px;
+  }
+
+  #nav_bar ul li a {
+    padding: 0 10px;
+    font-size: 17px;
+  }
+
+  /* About section */
+  .about-txt {
+    width: 75%;
+  }
+
+  /* project section*/
+  .project_container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .p_card {
+    margin-bottom: 70px;
+  }
+
+  /* footer section*/
+  .footer_btm {
+    display: grid;
+    height: 80px;
+    grid-template-columns: 63% 37%;
+    align-items: center;
+  }
+
+  .footer_btm ul li {
+    padding: 0px;
+  }
+
+  .footer_btm ul li a {
+    padding: 0 10px;
+    font-size: 17px;
+  }
+
+}
+
+
+
+
+/* For mobile responsive */
+@media only screen and (max-device-width: 425px) {
+  .uni-padding {
+    padding: 0px 30px;
+  }
+  /*Nav ber Section  -- Just hide nav in mobile screen*/
+  #nav_bar ul {
+    display: none;
+  }
+  /* landing section */
+  .landing_section {
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .photo {
+    order: 1;
+  }
+
+  .name {
+    order: 2;
+    text-align: center;
+  }
+
+  .myPhoto {
+    margin: auto;
+  }
+  /*Animation section*/
+  .single-box li:nth-child(3) {
+    left: 30%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 5.5s;
+  }
+  .single-box li:nth-child(4) {
+    right: 40%;
+    width: 50px;
+    height: 50px;
+  }
+  .single-box li:nth-child(6) {
+    left: 10%;
+    width: 90px;
+    height: 90px;
+  }
+  .single-box li:nth-child(7) {
+    left: 70%;
+    width: 70px;
+    height: 70px;
+  }
+
+  /* About section */
+  .about-txt {
+    width: 89%;
+    padding: 40px 17px;
+  }
+
+  .about-txt>p {
+    text-indent: 0.5em;
+    line-height: 20px;
+    font-size: medium;
+  }
+
+  .about-txt>p::first-letter {
+    font-size: 2em;
+
+  }
+
+  /*Work section*/
+  .work {
+    padding: 10px;
+    margin: 2px;
+    height: auto;
+    gap: 3px;
+    align-items: center;
+  }
+
+  .work>h2 {
+    font-size: large;
+  }
+
+  .work>p {
+    font-size: smaller;
+  }
+
+  /* tech stack*/
+  .tech_logo {
+    grid-template-columns: auto auto;
+  }
+
+  .tech_logo>img {
+    height: 90px;
+  }
+
+  /* project section*/
+  .project_container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .p_card {
+    width: 300px;
+    margin-bottom: 80px;
+  }
+
+  .p_card img{
+    height: 230px;
+  }
+
+  /* footer section*/
+  .footer_btm{
+    height: 60px;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: auto;
+  }
+  .footer_btm ul li{
+    display: none;
+  }
+}
